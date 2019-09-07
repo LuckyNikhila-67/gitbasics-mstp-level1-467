@@ -1,0 +1,70 @@
+ pwd
+/c/Users/kvsw6/desktop/raptorfiles
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git -a
+unknown option: -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git config user.name "LuckyNikhila-67"
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git config user.email "luckynikhila467@gmail.com"
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git remote add raptor https://github.com/LuckyNikhila-67/raptor-
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git remote -v
+controlversion  https://github.com/LuckyNikhila-67/controlversion (fetch)
+controlversion  https://github.com/LuckyNikhila-67/controlversion (push)
+raptor  https://github.com/LuckyNikhila-67/raptor- (fetch)
+raptor  https://github.com/LuckyNikhila-67/raptor- (push)
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ ls
+'addition static.rap'           input.rap           'task 1.rap.backup0'   task2.rap           task2.rap.backup2   task3.rap.backup0   task3.rap.backup3
+'addition static.rap.backup0'   multiplication.rap   task1.rap             task2.rap.backup0   task2.rap.backup3   task3.rap.backup1
+'addition static.rap.backup1'   powerof.rap          task1.rap.backup0     task2.rap.backup1   task3.rap           task3.rap.backup2
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git add *
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git commit -m "look"
+On branch master
+nothing to commit, working tree clean
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git log
+commit e70a000d6815ca7412a9d2c59cb7500dd8411cf3 (HEAD -> master)
+Author: LuckyNikhila-67 <luckynikhila467@gmail.com>
+Date:   Sat Aug 31 13:11:23 2019 +0530
+
+    raptorfiles
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ git push -u raptor master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 15.10 KiB | 3.78 MiB/s, done.
+Total 21 (delta 18), reused 0 (delta 0)
+remote: Resolving deltas: 100% (18/18), done.
+To https://github.com/LuckyNikhila-67/raptor-
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'raptor'.
+
+kvsw6@kvsw6-PC MINGW64 ~/desktop/raptorfiles (master)
+$ https://github.com/LuckyNikhila-67/raptor-
